@@ -6,7 +6,7 @@
 		"name": "Tyler Richards",
 		"email": "hello@tjrgg.xyz"
 	},
-	"license": "UNLICENSED",
+	"license": "MIT",
 	"repository": "github:tjrgg/klasa-plugin-invites",
 	"engines": {
 		"node": ">=10.0.0"
@@ -23,7 +23,6 @@
 		"xo": "^0.25.3"
 	},
 	"peerDependencies": {
-		"discord.js": "github:discordjs/discord.js#master",
 		"klasa": "github:dirigeants/klasa#master"
 	},
 	"xo": {
