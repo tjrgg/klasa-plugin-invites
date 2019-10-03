@@ -31,7 +31,7 @@ Client.use(require('klasa-plugin-invites'));
 
 ## License
 
-All rights reserved. Copyright © 2019 Tyler Richards.
+[MIT](https://github.com/tjrgg/klasa-plugin-invites/blob/master/LICENSE). Copyright © 2019 Tyler Richards.
 
 ## Support Me
 
