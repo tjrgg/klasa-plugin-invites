@@ -1,0 +1,32 @@
+{
+	"name": "klasa-plugin-invites",
+	"description": "A plugin for Klasa that deletes invites",
+	"version": "1.0.0",
+	"author": {
+		"name": "Tyler Richards",
+		"email": "hello@tjrgg.xyz"
+	},
+	"license": "UNLICENSED",
+	"repository": "github:tjrgg/klasa-plugin-invites",
+	"engines": {
+		"node": ">=10.0.0"
+	},
+	"files": [
+		"src/"
+	],
+	"main": "src/index.js",
+	"dependencies": {
+		"invite-regex": "^1.0.0"
+	},
+	"devDependencies": {
+		"eslint-config-tjr": "^1.0.2",
+		"xo": "^0.25.3"
+	},
+	"peerDependencies": {
+		"discord.js": "github:discordjs/discord.js#master",
+		"klasa": "github:dirigeants/klasa#master"
+	},
+	"xo": {
+		"extends": "tjr"
+	}
+}
